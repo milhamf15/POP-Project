@@ -15,11 +15,11 @@
             android:id="@+id/textView"
             android:layout_width="412dp"
             android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/activity_horizontal_margin"
+            android:layout_marginTop="@dimen/activity_horizontal_margin"
             android:layout_weight="1"
             android:text="Menu Utama"
             android:textAlignment="center"
-            android:layout_marginTop="@dimen/activity_horizontal_margin"
-            android:layout_marginBottom="@dimen/activity_horizontal_margin"
             android:textSize="20dp"
             android:textStyle="bold" />
 
@@ -30,6 +30,7 @@
         android:layout_height="wrap_content">
 
         <ImageButton
+            android:id="@+id/imageButton1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -48,10 +49,10 @@
         android:layout_height="wrap_content">
 
         <ImageButton
+            android:id="@+id/imageButton2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
-            app:srcCompat="@android:drawable/btn_star" />
+            app:srcCompat="@android:drawable/ic_menu_edit" />
 
         <TextView
             android:layout_width="202dp"
@@ -63,10 +64,10 @@
 
     <LinearLayout
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content">
+        android:layout_height="301dp">
 
         <ImageButton
-            android:id="@+id/imageButton"
+            android:id="@+id/imageButton3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             app:srcCompat="@android:drawable/ic_menu_help" />
@@ -77,6 +78,25 @@
             android:layout_weight="1"
             android:text="Bantuan"
             android:textSize="35dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="188dp"
+            android:layout_height="wrap_content"
+            android:text="Cari Gedung" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="194dp"
+            android:layout_height="wrap_content"
+            android:text="Menu Utama"
+            android:textColor="@color/colorAccent"/>
+
     </LinearLayout>
 
 </LinearLayout>
